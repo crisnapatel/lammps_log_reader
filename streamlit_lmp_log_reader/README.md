@@ -31,8 +31,3 @@ streamlit run streamlit_lmp_log_reader/app.py
 
 ## Docs
 Official setup guidance: https://docs.streamlit.io/ · https://docs.conda.io/en/latest/ · https://henriasv.github.io/lammps-logfile/
-
-## Why use this over henriasv/lammps-logfile alone?
-- No-code web UI that overlays multiple runs, live-tails logs, and exports plots, while still leveraging the `lammps-logfile` parser under the hood.
-- Hydrogen storage workflows benefit from built-in derived-series formulas, smoothing/downsampling options, and preset export/import for reproducible dashboards.
-- Dedicated tabs summarize WARNING/ERROR lines, timing breakdowns, and prefix-matched commands so anomalies surface without additional scripting.

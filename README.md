@@ -27,15 +27,5 @@ pip install -r streamlit_lmp_log_reader/requirements.txt
 ```bash
 streamlit run streamlit_lmp_log_reader/app.py
 ```
-
-## Deploy to Streamlit Community Cloud
-1. Push this repository to GitHub with `streamlit_lmp_log_reader/app.py` as the entry point.
-2. In Streamlit Community Cloud, select the repo, set the main file to `streamlit_lmp_log_reader/app.py`, and deploy.
-
 ## Docs
 Official setup references: https://docs.streamlit.io/ · https://docs.conda.io/en/latest/ · https://henriasv.github.io/lammps-logfile/
-
-## How this differs from henriasv/lammps-logfile
-- Built as an interactive Streamlit dashboard that accepts multiple uploads at once, overlays runs, and streams live log tails instead of providing only a programmatic parser.
-- Adds hydrogen storage-focused tooling such as quick presets, custom formulas, running averages, and downsampling (Every Nth or LTTB) for rapid exploratory plots.
-- Surfaces warnings, errors, and timing breakdowns in dedicated tabs with one-click CSV/PNG/HTML exports, complementing the lower-level parsing utilities in `lammps-logfile`.
