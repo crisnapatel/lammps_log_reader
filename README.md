@@ -32,3 +32,5 @@ Try lammps_log_reader at: https://lammpslogreader.streamlit.app/
 
 ## Docs
 Official setup references: https://docs.streamlit.io/ · https://docs.conda.io/en/latest/ · https://henriasv.github.io/lammps-logfile/
+## Preview
+![lammps-log-reader](Images/lammps-log-reader.png)
