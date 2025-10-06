@@ -27,10 +27,5 @@ pip install -r streamlit_lmp_log_reader/requirements.txt
 ```bash
 streamlit run streamlit_lmp_log_reader/app.py
 ```
-
-## Deploy to Streamlit Community Cloud
-1. Push this repository to GitHub with `streamlit_lmp_log_reader/app.py` as the entry point.
-2. In Streamlit Community Cloud, select the repo, set the main file to `streamlit_lmp_log_reader/app.py`, and deploy.
-
 ## Docs
 Official setup references: https://docs.streamlit.io/ · https://docs.conda.io/en/latest/ · https://henriasv.github.io/lammps-logfile/
