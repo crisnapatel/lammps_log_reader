@@ -6,12 +6,11 @@ Streamlit interface for exploring LAMMPS simulation logs with multi-run plotting
 Python 3.10+ recommended.
 
 ## Install (choose one)
-
 ```bash
 # Option A: virtualenv (venv)
 python -m venv .venv
 source .venv/bin/activate  # mac/linux
-.venv\Scripts\Activate.ps1  # Windows PowerShell
+.venv\\Scripts\\Activate.ps1  # Windows PowerShell
 pip install -r requirements.txt
 ```
 
@@ -26,8 +25,9 @@ pip install -r requirements.txt
 
 ## Run
 ```bash
-streamlit run app.py
+# From the repository root
+streamlit run streamlit_lmp_log_reader/app.py
 ```
 
 ## Docs
-Official setup guidance: https://docs.conda.io/en/latest/ (Conda) · https://henriasv.github.io/lammps-logfile/
+Official setup guidance: https://docs.streamlit.io/ · https://docs.conda.io/en/latest/ · https://henriasv.github.io/lammps-logfile/
