@@ -28,7 +28,7 @@ pip install -r streamlit_lmp_log_reader/requirements.txt
 streamlit run streamlit_lmp_log_reader/app.py
 ```
 ## Streamlit app
-Try lammpslogreader at: https://lammpslogreader.streamlit.app/
+Try lammps_log_reader at: https://lammpslogreader.streamlit.app/
 
 ## Docs
 Official setup references: https://docs.streamlit.io/ · https://docs.conda.io/en/latest/ · https://henriasv.github.io/lammps-logfile/
